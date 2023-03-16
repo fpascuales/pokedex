@@ -1,0 +1,227 @@
+.pokemon-card{
+    padding: 5px 5px 0 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    // width: 200px;
+    // height: 180px;
+    margin: 10px;
+    color: #fff;
+    &--grass{
+        background-color: var(--color-grass);
+        &:hover{
+            background: linear-gradient(150deg, #79D4C9, var(--color-grass), #95D479);
+            background-size: 400% 300%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--poison{
+        background-color: var(--color-poison);
+        &:hover{
+            background: linear-gradient(150deg, #AD7293, var(--color-poison), #7C72AD);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--fire{
+        background-color: var(--color-fire);
+        &:hover{
+            background: linear-gradient(150deg, #CF7F3C, var(--color-fire), #CF3C7B);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--flying{
+        background-color: var(--color-flying);
+        &:hover{
+            background: linear-gradient(150deg, #7B7AF8, var(--color-flying), #7AF8F2);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--water{
+        background-color: var(--color-water);
+        &:hover{
+            background: linear-gradient(150deg, #7B8EE8, var(--color-water), #7BE8CE);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--bug{
+        background-color: var(--color-bug);
+        &:hover{
+            background: linear-gradient(150deg, #52AB4F, var(--color-bug), #AB9F4F);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--normal{
+        background-color: var(--color-normal);
+        &:hover{
+            background: linear-gradient(150deg, #A89C97, var(--color-normal), #A897A8);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--electric{
+        background-color: var(--color-electric);
+        &:hover{
+            background: linear-gradient(150deg, #9FD453, var(--color-electric), #D4AF53);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--ground{
+        background-color: var(--color-ground);
+        &:hover{
+            background: linear-gradient(150deg, #9C7F49, var(--color-ground), #9C5249);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--fairy{
+        background-color: var(--color-fairy);
+        &:hover{
+            background: linear-gradient(150deg, #C99291, var(--color-fairy), #AD91C9);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--fighting{
+        background-color: var(--color-fighting);
+        &:hover{
+            background: linear-gradient(150deg, #DBB23D, var(--color-fighting), #DB613D);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--psychic{
+        background-color: var(--color-psychic);
+        &:hover{
+            background: linear-gradient(150deg, #B85C44, var(--color-psychic), #A544B8);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--rock{
+        background-color: var(--color-rock);
+        &:hover{
+            background: linear-gradient(150deg, #A4AD7B, var(--color-rock), #AD9C7B);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--steel{
+        background-color: var(--color-steel);
+        &:hover{
+            background: linear-gradient(150deg, #7F87AD, var(--color-steel), #7FADA1);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--ice{
+        background-color: var(--color-ice);
+        &:hover{
+            background: linear-gradient(150deg, #4F7FFF, var(--color-ice), #4FFFC1);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--ghost{
+        background-color: var(--color-ghost);
+        &:hover{
+            background: linear-gradient(150deg, #783434, var(--color-ghost), #533478);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--dragon{
+        background-color: var(--color-dragon);
+        &:hover{
+            background: linear-gradient(150deg, #8F4AED, var(--color-dragon), #4AB3ED);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+    &--dark{
+        background-color: var(--color-dark);
+        &:hover{
+            background: linear-gradient(150deg, #5C4E44, var(--color-dark), #5C4452);
+            background-size: 200% 150%;
+            animation: BgGradient 2s ease infinite;
+        }
+    }
+}
+.card-header{
+    display: flex;
+    justify-content:space-between;
+    height: 20%;
+}
+.card-num{
+    font-weight: 600;
+    color: var(--color-num);
+}
+.card-name{
+    // font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    background-image: url("assets/images/pokeball.png");
+    background-repeat: no-repeat;
+    background-position: right 40px;
+    background-size: 120px;
+}
+.card-types{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-bottom: 5px;
+}
+.card-type{
+    padding: 3px 10px;
+    margin: 2px 0;
+    text-align: center;
+    border-radius: 30px;
+    background-color: var(--color-type);
+    transition: background-color 0.75s ease;
+    &:hover{
+        background-color: var(--color-orange);
+    }
+}
+.card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.card-pokemon-img{
+    height: 130px;
+    &:hover{
+        animation: bounce 2s linear;
+    }
+}
+
+@keyframes bounce {
+    20% {
+      transform: translateY(-6px);
+    }
+    40% {
+      transform: translateY(0px);
+    }
+    60% {
+      transform: translateY(-2px);
+    }
+    80% {
+      transform: translateY(-0px);
+    }
+  }
+
+  @keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 75%;}
+    100% {background-position: 25% 25%;}
+  }

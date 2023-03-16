@@ -1,0 +1,85 @@
+.type-card{
+    padding: 5px;
+    margin: 5px;
+    min-width: 60px;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 10px;
+    background-image: url("assets/images/pokeball.png");
+    background-blend-mode:soft-light;
+    background-repeat: no-repeat;
+    background-position:right;
+    background-size: 40px;
+    &--grass{
+        background-color: var(--color-grass);
+    }
+    &--poison{
+        background-color: var(--color-poison);
+    }
+    &--fire{
+        background-color: var(--color-fire);
+    }
+    &--flying{
+        background-color: var(--color-flying);
+    }
+    &--water{
+        background-color: var(--color-water);
+    }
+    &--bug{
+        background-color: var(--color-bug);
+    }
+    &--normal{
+        background-color: var(--color-normal);
+    }
+    &--electric{
+        background-color: var(--color-electric);
+    }
+    &--ground{
+        background-color: var(--color-ground);
+    }
+    &--fairy{
+        background-color: var(--color-fairy);
+    }
+    &--fighting{
+        background-color: var(--color-fighting);
+    }
+    &--psychic{
+        background-color: var(--color-psychic);
+    }
+    &--rock{
+        background-color: var(--color-rock);
+    }
+    &--steel{
+        background-color: var(--color-steel);
+    }
+    &--ice{
+        background-color: var(--color-ice);
+    }
+    &--ghost{
+        background-color: var(--color-ghost);
+    }
+    &--dragon{
+        background-color: var(--color-dragon);
+    }
+    &--dark{
+        background-color: var(--color-dark);
+    }
+    &:hover{
+        animation: bounce 0.5s linear;
+    }
+}
+@keyframes bounce {
+    20% {
+      transform: translateY(-6px);
+    }
+    40% {
+      transform: translateY(0px);
+    }
+    60% {
+      transform: translateY(-2px);
+    }
+    80% {
+      transform: translateY(-0px);
+    }
+  }

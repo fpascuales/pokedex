@@ -1,0 +1,64 @@
+.ficha{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: var(--color-num);
+    border-left: solid 1px var(--color-dark);
+}
+.ficha-pokemon{
+    margin-top: 40px;
+}
+.ficha-header{
+    display: flex;
+    margin: 0 20px;
+}
+.pokemon-num{
+    font-size: 35px;
+    font-weight: 600;
+}
+.pokemon-name{
+    margin-left: 10px;
+    font-family: Pokemon;
+    text-transform: capitalize;
+}
+// .ficha-img{
+// }
+
+.pokemon-img{
+    width: 100%;
+}
+.ficha-types, .ficha-stats{
+    margin: 10px 20px 0 20px;
+
+}
+.ficha-stat{
+    width: 100%;
+    position: relative;
+    border: solid 1px var(--color-light);
+    border-radius: 20px;
+    margin: 5px 0;
+    padding: 0 10px;
+}
+.stat-fill{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 24px;
+    background-color: var(--color-stats);
+    border-radius: 20px 0 0 20px;
+    &--100{
+        border-radius: 20px;
+    }
+}
+.span-stat{
+    position: relative;
+    &--value{
+        margin-left: 10px;
+    }
+}
+.ficha-abilities{
+    margin: 0 20px;   
+}
+.abilities-list{
+    display: flex;
+    flex-wrap: wrap;
+}
