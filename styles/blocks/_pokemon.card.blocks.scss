@@ -204,6 +204,13 @@
         animation: bounce 2s linear;
     }
 }
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
 
 @keyframes bounce {
     20% {
