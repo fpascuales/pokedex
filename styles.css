@@ -429,6 +429,9 @@ h4 {
   #div-pokedex {
     margin-top: 310px !important;
   }
+  .loader {
+    margin-top: -310px;
+  }
 }
 .search {
   height: 200px;
