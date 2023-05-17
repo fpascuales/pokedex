@@ -176,6 +176,11 @@ h4 {
   width: 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  #div-menu {
+    height: auto !important;
+  }
+}
 .pokemon-card {
   padding: 5px 5px 0 5px;
   border-radius: 20px;
@@ -412,6 +417,11 @@ h4 {
     background-position: 25% 25%;
   }
 }
+@media only screen and (max-width: 600px) {
+  #div-pokedex {
+    margin-top: 310px !important;
+  }
+}
 .search {
   height: 200px;
   padding: 10px;
@@ -440,6 +450,14 @@ h4 {
   background-color: var(--color);
 }
 
+@media only screen and (max-width: 600px) {
+  .search {
+    height: auto;
+    width: 100vw;
+    text-align: center;
+    border-radius: 0px;
+  }
+}
 .type-card {
   padding: 5px;
   margin: 5px;
@@ -524,5 +542,16 @@ h4 {
   }
   80% {
     transform: translateY(0px);
+  }
+}
+@media only screen and (max-width: 600px) {
+  #div-types {
+    width: 100vw;
+  }
+  #div-types .type-card {
+    margin: 3px;
+  }
+  .bottom-0 {
+    display: none;
   }
 }/*# sourceMappingURL=styles.css.map */

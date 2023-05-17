@@ -225,3 +225,8 @@
     50% {background-position: 100% 75%;}
     100% {background-position: 25% 25%;}
   }
+  @media only screen and (max-width: 600px) {
+    #div-pokedex{
+        margin-top: 310px !important;
+    }
+}
